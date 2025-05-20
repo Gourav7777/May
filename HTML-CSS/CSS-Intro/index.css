@@ -1,0 +1,62 @@
+/* *{
+    background-color: black;
+    color: white;
+} */
+
+
+/* 
+span:hover{
+   
+    font-size: larger;
+    color: rgb(200, 100, 150);
+    display: none;
+}
+span:hover:after{
+
+    content: "hi hello";
+}
+
+input:focus{
+    background-color: red;
+    color: white;
+} */
+
+/* .child:nth-child(3){
+    font-weight: bolder;
+} */
+
+
+/* span:hover{
+    color: pink;
+    font-size: larger;
+    background-color: brown;
+} */
+
+/* div::first-letter{
+    background-color: red;
+    color:yellow;
+} */
+
+/* div::selection{
+    background-color: yellow;
+}
+
+[type="text"]{
+    border: 10px solid green;
+} */
+
+
+span{
+    font-size: 20px;
+}
+div{
+ font-size: 30px;
+    border: 10px solid red;
+
+    width: 70vw;
+    height: 50vh;
+}
+
+p{
+    font-size: 1.5rem;
+}
