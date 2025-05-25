@@ -1,0 +1,43 @@
+.parent{
+    display: grid;
+    
+    border: 1px solid black;
+    
+    
+
+     grid-template-columns: repeat(3, 1fr); 
+     grid-template-rows: auto auto ;
+      gap: 20px;
+     grid-auto-rows: 100px; 
+    height: 500px;
+ 
+}
+
+.child{
+    border: 1px solid red;
+    
+}
+/* 
+.Box-1{
+     grid-row-start: 1;
+    grid-row-end: 4; 
+     grid-row: span 3;
+    background-color: green; 
+} */
+
+/* .Box-2{
+    grid-column: span 2;
+    background-color: green;
+}
+
+.redd{
+    background-color: red;
+}
+
+.y{
+    background-color: yellow;
+}
+.Box-6{
+    background-color: green;
+    grid-row: span 2;
+} */

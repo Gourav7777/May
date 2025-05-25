@@ -1,0 +1,29 @@
+Flex (flex helps us to acheive responsiveness in our website through flex box)
+
+
+Container Properties (parent element)
+- flex (aligns every child element inside single row)
+- wrap 
+- justify content (aligns the items on main axis)
+- align items (aligns the items on cross axis)
+- align content 
+- flex direction 
+
+
+Child Properties
+
+- flex-grow
+- flex-shrink
+- order
+- flex-basis
+
+
+Grid (2-dimensional layouts)
+
+container 
+
+-  grid-template-columns (setting width of column)
+-   grid-template-rows (sets the height )
+- grid-auto-rows
+- gap
+
