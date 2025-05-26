@@ -1,0 +1,13 @@
+Tailwind CSS (Framework of CSS)
+- It makes our development faster
+Frameworks (Inside frameworks we have some predefined rules to use the properties of css with inbuilt classes)
+
+Utility Classes (for every css property there is a separate inbuilt class)
+
+2 ways to integrte Tailwind
+  - CDN 
+  - Tailwind CLI (command line interface)
+
+       -First Install Node js
+       - Install tailwind packages via npm
+       - then follow the furthur steps from documentation
