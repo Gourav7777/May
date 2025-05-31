@@ -1,8 +1,22 @@
 @import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Lora:ital,wght@1,400..700&family=Oswald:wght@200..700&family=Special+Gothic+Expanded+One&display=swap');
+
+body{
+    font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
 
 .top-image{
     filter: brightness(0.5);
+    /* background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat; */
+    
+
+   
 }
 .top-content{
     transform: translate(-50%,-50%);
@@ -11,6 +25,56 @@
 }
 
 .top-header{
-    filter: brightness(1);
+    /* filter: brightness(1); */
     z-index: 10;
+}
+
+.box{
+    overflow: hidden;
+}
+
+.image-content{
+    transform: translatey(100%);
+    text-align: center;
+    font-size: 20px;
+     transition-property: transform;
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.box img{
+     transition-property: transform;
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.box:hover img{
+
+    transform: translateY(-100%);
+   
+    transition-property: transform;
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+
+.box:hover .image-content{
+    transform: translateY(50%);
+}
+
+
+@media  (max-width:1024px) {
+    .abc{
+        flex-direction: column;
+    }
+
+    .imgg{
+        width: 100%;
+    }
+
+    .textt{
+        width: 100%;
+    }
 }
